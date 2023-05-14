@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.header{
+    width: 800px;
+    background-color: lightcyan;
+    margin: auto;
+    padding: 10px 0px 10px 0px ;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.container{
+    width: 800px;
+    background-color: rgb(198, 229, 238);
+    margin: auto;
+}
+form{
+    padding: 30px;
+    
+}
+.f-name, .company, .email, .phone{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.first-name,.last-name, .com-input, .e-input, .p-input{
+    margin-left: 100px;
+    left: 200px;
+    top: 37px;
+    width: 400px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.com-input{
+    margin-left: 110px;
+}
+.e-input{
+    margin-left:150px ;
+}
+.p-input{
+    margin-left: 70px;
+}
+.radio{
+
+    margin: 20px 0 10px 0;
+}
+.btn{
+   height: 30px; 
+   width: 100px;
+   margin: 10px;
+   
+   background-color: rgb(238, 58, 58);
+   text-align: center;
+   font-size: 16px;
+   font-weight: b;
+   color: white;
+   border-radius: 10px;
+}
+

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(239, 239, 253);
+}
+.h-1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.container{
+    background-color: rgb(116, 224, 224);
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.img-2{
+   margin-right: 350px;
+    
+}
+.img-1{
+    margin-left: 350px;
+}
+.new-img{
+    height: 40px;
+    width: 40px;
+}
+form{
+    margin: 10px;
+    padding: 10px;
+}
+.fieldset{
+    width: 98%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.last-name, .dob{
+    margin-left: 30px;
+}
+.name{
+    margin-left: 50px;
+}
+.f-name{
+    margin-left: 40px;
+}
+.p-address{
+    margin-left: 10px;
+}
+.email, .dob-input{
+    margin-left: 95px;
+}
+.no-input{
+    margin-left: 60px ;
+}
+.certificate-input{
+    margin-left: 50px;
+}
+.m-input, .f-input, .option{
+    margin-left: 90px;
+}
+.option-1{
+    margin-left: 80px;
+}
+.ftooter{
+    margin: 10px;
+    padding: 10px;
+    line-height: 2rem;
+}
+.btn{
+    margin: 20px 0;
+    margin-left: 30%;
+    padding: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(80, 80, 233);
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-2{
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(208, 90, 167);
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;  
+}
