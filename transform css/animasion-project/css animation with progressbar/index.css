@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sill-container{
+    width: 500px;
+    background-color: gray;
+    padding: 40px;
+    margin: 20px;
+}
+ul li{
+    list-style: none;
+    margin: 50px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.sill-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    background-color: rgb(204, 197, 197);
+    width: 100%;
+    height: 25px;
+    border-radius: 1000px;
+
+}
+.sill-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    background-color: rgb(204, 197, 197);
+    width: 0;
+    height: 25px;
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+.sill-container li.html::after{
+    animation-name: html;
+}
+@keyframes html {
+    to{
+        width: 90%;
+        background-color: blue;
+    }
+
+}
+.sill-container li.css::after{
+    animation-name: css;
+}
+@keyframes css {
+    to{
+        width: 80%;
+        background-color: blue;
+    }
+
+}
+.sill-container li.brt::after{
+    animation-name: brt;
+}
+@keyframes brt {
+    to{
+        width: 70%;
+        background-color: blue;
+    }
+
+}
+.sill-container li.js::after{
+    animation-name: js;
+}
+@keyframes js {
+    to{
+        width: 65%;
+        background-color: blue;
+    }
+
+}
+.sill-container li.react::after{
+    animation-name: react;
+}
+@keyframes react {
+    to{
+        width: 65%;
+        background-color: blue;
+    }
+
+}

@@ -1,0 +1,12 @@
+.container{
+    width: 400px;
+    height: 200px;
+    margin: 40px auto;
+    border: 15px solid salmon;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center ;
+}

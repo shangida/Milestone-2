@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid cadetblue;
+    background-color: darkorange;
+    transition: width 5s linear 2s, height 10s linear 1s, background-color 5s ;
+}
+.box:hover{
+    width: 400px;
+    height: 400px;
+    background-color: chartreuse;
+}                                                                                                                                       

@@ -1,0 +1,24 @@
+.container, .inner{
+    width: 150px;
+    height: 150px;
+    border: 2px solid khaki;
+   margin: 5px;
+}
+.container{
+    background-color: aqua;
+}
+.inner{
+    background-color: rgb(69, 16, 193);
+    font-size: 30px;
+    color: salmon;
+    
+}
+.inner-1{
+    transform: translate(20px, -20px);
+}
+.inner-2{
+    transform: rotate(45deg);
+}
+.inner-3:hover{
+    transform: translate(20px) rotate(30deg) scale(0.5);
+}
